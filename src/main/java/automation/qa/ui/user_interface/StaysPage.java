@@ -17,7 +17,11 @@ public class StaysPage {
     public static final Target GOING_TO1 = Target
             .the("Going To")
             .located(By.xpath("//input[@id='location-field-destination']"));
+    public static final Target MESSAGE_ERROR = Target
+            .the("MessageError")
+            .located(By.xpath("//h3[contains(text(),'To continue, please correct the error below.')]"));
     public static final Target SEARCH_BTN = Target
             .the("Search")
             .located(By.xpath("//button[contains(text(),'Search')]"));
+
 }
