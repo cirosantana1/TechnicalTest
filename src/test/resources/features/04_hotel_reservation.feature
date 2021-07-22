@@ -10,4 +10,3 @@ Característica: Validar informacion al intentar reservar un hotel
     Entonces El sistema le mostrara los resultados de la busqueda
 
     Cuando Seleccione un hotel
-    #Entonces El sistema le mostrara la información del hotel seleccionado*/

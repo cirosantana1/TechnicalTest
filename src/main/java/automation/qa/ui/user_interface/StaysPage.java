@@ -13,7 +13,7 @@ public class StaysPage {
             .located(By.xpath("//span[contains(text(),'Stays')]"));
     public static final Target GOING_TO = Target
             .the("Going To")
-            .located(By.xpath("//body/div[@id='app']/div[@id='app-layer-manager']/div[@id='app-layer-base']/div[1]/div[1]/div[1]/div[1]/div[1]/figure[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]"));
+            .located(By.xpath("//body/div[@id='app']/div[@id='app-layer-manager']/div[@id='app-layer-base']/div[1]/div[1]/div[1]/div[2]/div[1]/figure[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]"));
     public static final Target GOING_TO1 = Target
             .the("Going To")
             .located(By.xpath("//input[@id='location-field-destination']"));
